@@ -1,0 +1,273 @@
+html{
+    margin: 0 auto;
+}
+
+.sotowaku{
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+body{
+    margin: 0 auto;
+}
+h1{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-top: 10px;
+    width: 900px;
+}
+
+nav{
+    padding-top: 20px;
+    clear: both;
+    float: left;
+    width: 110px;
+}
+article{
+    padding-top: 20px;
+    padding-left: 10px;
+    float: left;
+    width: 750px; 
+}
+.personal{
+    width: 100%;
+    float: left;
+    color: white;
+    background-color: #00569B;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.usr_name{
+    float: left;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.usr_year{
+    float: left;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.system_date{
+    float: left;
+}
+
+.button_logout{
+    float: right;
+    border-radius:5px;
+    background-color: white;
+    margin-left: 10px;
+    background-color: #ff9900;
+    color: #FFFFFF;
+    width: 100px;
+    height: 25px;
+    font-size: 16px;
+}
+
+.header_ul {
+    clear: both;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header_li{
+    float: left;
+    text-align: center;
+    border-left: 1px dotted gray;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    width: 110px;
+}
+
+.header_li_last{
+    border-right: 1px dotted;
+}
+.header_a{
+    width: 100%;
+    line-height: 2em;
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+.header_a:hover{
+    color: red;
+}
+
+.header_a_active{
+    color: red;
+}
+.nav_ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid gray;
+}
+
+.nav_top_li{
+    margin-left: 5px;
+}
+.nav_li{
+    margin-left: 20px;
+}
+    
+.nav_a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+.nav_a_active{
+    color: red;
+    font-weight: bold;
+}
+
+.nav_a:hover{
+    color: red;
+    padding-left: 10px;
+}
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.table_unit{
+    border-collapse: collapse;
+    text-align: left;
+
+}
+
+.table_unit_thead_tr{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+/* No */
+.table_unit_thead_no{
+    table-layout:fixed;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width: 40px;
+}
+
+/* 単元名 */
+.table_unit_thead_unitName{
+    table-layout:fixed;
+    border-right: 1px solid gray;
+    width: 400px;
+}
+/* 前回実施日 */
+.table_unit_thead_preStudy{
+    table-layout:fixed;
+    width: 100px;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+/* 実施回数 */
+.table_unit_thead_cntStudy{
+    table-layout:fixed;
+    width: 70px;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+/* チェックボックス */
+.table_unit_thead_check{
+    table-layout:fixed;
+    width: 55px;
+    border-right: 1px solid gray;
+}
+/* No */
+.table_unit_no{
+    table-layout:fixed;
+    border: 1px solid gray;
+    width: 40px;
+}
+
+/* 単元名 */
+.table_unit_unitName{
+    table-layout:fixed;
+    border: 1px solid gray;
+    width: 400px;
+}
+/* 前回実施日 */
+.table_unit_preStudy{
+    table-layout:fixed;
+    width: 100px;
+    text-align: center;
+    border: 1px solid gray;
+}
+/* 実施回数 */
+.table_unit_cntStudy{
+    table-layout:fixed;
+    width: 70px;
+    text-align: right;
+    border: 1px solid gray;
+}
+/* 前回実施日 */
+.text_preStudy{
+    width: 100px;
+    border:none;
+    font-size: 14px;
+    text-align: center;
+}
+/* 実施回数 */
+.text_cntStudy{
+    width: 50px;
+    border:none;
+    font-size: 14px;
+    text-align: right;
+}
+/* チェックボックス */
+.table_unit_check{
+    table-layout:fixed;
+    width: 55px;
+    border: 1px solid gray;
+}
+.table_unit_tr{
+    border-collapse: collapse;
+    /*border: 1px solid gray;*/
+}
+
+.table_unit_td{
+    border: 1px solid gray;
+}
+
+/*スクロール用*/
+.scrollHead,.scrollBody{
+    display:block;
+}
+.scrollBody{
+    overflow-y:scroll;
+    height:400px;
+}
+.div_table{
+    float: left;
+}
+.div_button{
+    clear: both;
+    float: left;
+    width: 520px;
+}
+
+.btn_Insert{
+    text-align:right;
+}
+
+/* フッター */
+footer{    
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    text-align:center;
+    clear: both;
+    margin: 0 auto;
+}

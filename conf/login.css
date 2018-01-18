@@ -1,0 +1,104 @@
+html{
+    margin: 0 auto;
+    /*order: solid 1px black;*/
+}
+
+body{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid 1px #666666;
+}
+
+.error{
+    color: red;
+}
+
+.div{
+    margin: 0 auto;
+    /*border: solid 1px red;*/
+    width: 350px;
+    padding-left: 15px;
+}
+.div button{
+    margin-left: 15px;
+}
+
+h1{
+    margin-top: 10px;
+    color: #888888;
+    font-family:"ヒラギノ角ゴ Pro W3",メイリオ,Osaka,Arial,Verdana
+,"ＭＳ Ｐゴシック",sans-serif;
+}
+
+h2{
+    color: #888888;
+}
+.login_btn{
+    margin-top: 20px;
+    /*background-color: #ADD8E6;*/
+    background-color: #5BB9D8;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.login_btn:hover {
+/*    background-color: #ADD8E6; */
+/*    border: 1px solid rgba(0,0,0,.5); */
+    opacity: 0.5;
+/*    color: #FFFFFF; */
+    
+}
+
+.usr_touroku_btn{
+    margin-top: 20px;
+    background-color: #ff9900;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.usr_touroku_btn:hover {
+        opacity: 0.5;
+}
+
+.btn_user_Insert{
+    background-color: #ff9900;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.btn_user_Insert:hover {
+        opacity: 0.5;
+}
+
+.btn_user_back{
+    background-color: #C9C9C9;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.btn_user_back:hover {
+        opacity: 0.5;
+}
